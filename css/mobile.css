@@ -4,20 +4,29 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #fce006;
+  background-color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: 600;
-  color: white;
+  color: gold;
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   padding: 0px 20px;
   line-height: 1.5;
   display: none;
   z-index: 4;
 }
 
+/*
+.bigScreen__img {
+  background-color: red;
+  background-image: url("../img/alert.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+*/
 @media screen and (min-width: 550px) {
   .bigScreen {
     display: flex;
